@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pairSum",
+            "request": "launch",
+            "mainClass": "pairSum",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "intersectionOfTwoArray",
+            "request": "launch",
+            "mainClass": "intersectionOfTwoArray",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "findDuplicate",
+            "request": "launch",
+            "mainClass": "findDuplicate",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "findUnique",
+            "request": "launch",
+            "mainClass": "findUnique",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
             "name": "swapAlternate",
             "request": "launch",
             "mainClass": "swapAlternate",
