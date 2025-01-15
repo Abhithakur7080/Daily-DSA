@@ -2,7 +2,7 @@ public class ArrangeNumberInArray {
     public static void main(String[] args) {
         int arr[] = ArraysIO.input.takeInput_1d();
         arrange(arr);
-        ArraysIO.output.print_1D(arr);
+        ArraysIO.output.print_1d(arr);
 
     }
     public static void arrange(int arr[]){

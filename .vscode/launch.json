@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mergeTwoSortedArray",
+            "request": "launch",
+            "mainClass": "mergeTwoSortedArray",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "insertionSort",
+            "request": "launch",
+            "mainClass": "insertionSort",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "bubblesort",
+            "request": "launch",
+            "mainClass": "bubblesort",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "selectionSort",
+            "request": "launch",
+            "mainClass": "selectionSort",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "sort01",
+            "request": "launch",
+            "mainClass": "sort01",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "tripletSum",
+            "request": "launch",
+            "mainClass": "tripletSum",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
             "name": "pairSum",
             "request": "launch",
             "mainClass": "pairSum",
