@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "secondLargest",
+            "request": "launch",
+            "mainClass": "secondLargest",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "collection",
+            "request": "launch",
+            "mainClass": "ArraysIO.collection",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "rotateArray",
+            "request": "launch",
+            "mainClass": "rotateArray",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "pushZeroToEnd",
+            "request": "launch",
+            "mainClass": "pushZeroToEnd",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
             "name": "mergeTwoSortedArray",
             "request": "launch",
             "mainClass": "mergeTwoSortedArray",
