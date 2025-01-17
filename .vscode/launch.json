@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "sumOfTwoArray",
+            "request": "launch",
+            "mainClass": "sumOfTwoArray",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "sort012",
+            "request": "launch",
+            "mainClass": "sort012",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "checkArrayRotation",
+            "request": "launch",
+            "mainClass": "checkArrayRotation",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
             "name": "secondLargest",
             "request": "launch",
             "mainClass": "secondLargest",
