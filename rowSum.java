@@ -1,16 +1,22 @@
-public class rowSum{
-    public static void rowWiseSum(int[][] mat) {
-		if(mat.length ==0) {
-			return;
+public class rowSum {
+	public static void main(String[] args) {
+		int matrix[][] = ArraysIO.input.takeInput_2d();
+		int result[] = rowWiseSum(matrix);
+		ArraysIO.output.print_1d(result);
+	}
+
+	public static int[] rowWiseSum(int[][] mat) {
+		if (mat.length == 0) {
+			return new int[0];
 		}
-		int sum = 0;
-		for(int i=0;i<mat.length;i++) {
-			for(int j = 0;j<mat[0].length;j++) {
+		int result[] = new int[mat.length];
+		for (int i = 0; i < mat.length; i++) {
+			int sum = 0;
+			for (int j = 0; j < mat[0].length; j++) {
 				sum += mat[i][j];
 			}
-			System.out.print(sum + " ");
-			sum = 0;
+			result[i] = sum;
 		}
-		System.out.println();
+		return result;
 	}
 }

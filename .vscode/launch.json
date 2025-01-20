@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "largestRowOrColumn",
+            "request": "launch",
+            "mainClass": "largestRowOrColumn",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "rowSum",
+            "request": "launch",
+            "mainClass": "rowSum",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
             "name": "sumOfTwoArray",
             "request": "launch",
             "mainClass": "sumOfTwoArray",

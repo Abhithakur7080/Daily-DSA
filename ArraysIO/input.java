@@ -12,4 +12,20 @@ public class input{
         }
         return array;
     }
+    public static int[][] takeInput_2d() {
+        System.out.println("Enter the no of rows");
+        int row = sc.nextInt();
+        System.out.println("Enter the no of colums");
+        int col = sc.nextInt();
+
+        int matrix[][] = new int[row][col];
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                System.out.print("Enter index- (" + i + "," + j + ") :");
+                matrix[i][j] = sc.nextInt();
+            }
+        }
+        return matrix;
+    }
 }
