@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "stringPalindrome",
+            "request": "launch",
+            "mainClass": "stringPalindrome",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "countWords",
+            "request": "launch",
+            "mainClass": "countWords",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "printSpiral",
+            "request": "launch",
+            "mainClass": "printSpiral",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "printLikeAWave",
+            "request": "launch",
+            "mainClass": "printLikeAWave",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "totalSumOfBoundriesAndDiagonal",
+            "request": "launch",
+            "mainClass": "totalSumOfBoundriesAndDiagonal",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
             "name": "largestRowOrColumn",
             "request": "launch",
             "mainClass": "largestRowOrColumn",

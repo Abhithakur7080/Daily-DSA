@@ -19,4 +19,5 @@ public class collection {
             swap(start++, end--, array);
         }
     }
+    
 }
