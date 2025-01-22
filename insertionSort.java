@@ -2,7 +2,7 @@ public class insertionSort {
     public static void main(String[] args) {
         int array[] = ArraysIO.input.takeInput_1d();
         sort(array);
-        ArraysIO.output.print_1d(array);
+        ArraysIO.output.print(array);
     }
     public static void sort(int arr[]){
         for (int i = 1; i < arr.length; i++) {

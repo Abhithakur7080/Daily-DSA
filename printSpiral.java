@@ -1,7 +1,7 @@
 public class printSpiral {
     public static void main(String[] args) {
         int matrix[][] = ArraysIO.input.takeInput_2d();
-        ArraysIO.output.print_1d(print(matrix));
+        ArraysIO.output.print(print(matrix));
     }
 
     public static int[] print(int matrix[][]) {

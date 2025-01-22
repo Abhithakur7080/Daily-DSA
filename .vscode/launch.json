@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "compressTheString",
+            "request": "launch",
+            "mainClass": "compressTheString",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "highestOccuringCharacter",
+            "request": "launch",
+            "mainClass": "highestOccuringCharacter",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "removeCharacter",
+            "request": "launch",
+            "mainClass": "removeCharacter",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "reverseEachWord",
+            "request": "launch",
+            "mainClass": "reverseEachWord",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "removeConsecutive",
+            "request": "launch",
+            "mainClass": "removeConsecutive",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "isPalindrome",
+            "request": "launch",
+            "mainClass": "isPalindrome",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "reverseStringWordWise",
+            "request": "launch",
+            "mainClass": "reverseStringWordWise",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "allSubstring",
+            "request": "launch",
+            "mainClass": "allSubstring",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
+            "name": "suffleTheArray",
+            "request": "launch",
+            "mainClass": "suffleTheArray",
+            "projectName": "Daily-DSA_e788e982"
+        },
+        {
+            "type": "java",
             "name": "stringPalindrome",
             "request": "launch",
             "mainClass": "stringPalindrome",

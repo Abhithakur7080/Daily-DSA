@@ -3,7 +3,7 @@ public class sumOfTwoArray {
         int array1[] = ArraysIO.input.takeInput_1d();
         int array2[] = ArraysIO.input.takeInput_1d();
         int result[] = sumArr(array1, array2);
-        ArraysIO.output.print_1d(result);
+        ArraysIO.output.print(result);
 
     }
     public static int[] sumArr(int arr1[], int arr2[]){

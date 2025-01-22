@@ -3,7 +3,7 @@ public class mergeTwoSortedArray {
         int array1[] = ArraysIO.input.takeInput_1d();
         int array2[] = ArraysIO.input.takeInput_1d();
         int solution[] = merge(array1, array2);
-        ArraysIO.output.print_1d(solution);
+        ArraysIO.output.print(solution);
     }
     public static int[] merge(int arr1[], int arr2[]){
         int m = arr1.length;

@@ -2,7 +2,7 @@ public class sort01 {
     public static void main(String[] args) {
         int array[] = ArraysIO.input.takeInput_1d();
         sort2(array);
-        ArraysIO.output.print_1d(array);
+        ArraysIO.output.print(array);
     }
     public static void sort(int arr[]){
         int countZeros = 0;

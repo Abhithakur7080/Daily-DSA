@@ -28,4 +28,24 @@ public class input{
         }
         return matrix;
     }
+    public static int[][][] takeInput_3d() {
+        System.out.println("Enter the no of items in x-dimensions");
+        int x = sc.nextInt();
+        System.out.println("Enter the no of items in y-dimensions");
+        int y = sc.nextInt();
+        System.out.println("Enter the no of items in z-dimensions");
+        int z = sc.nextInt();
+
+        int matrix[][][] = new int[x][y][z];
+
+        for (int i = 0; i < x; i++) {
+            for (int j = 0; j < y; j++) {
+                for (int k = 0; k < z; k++) {
+                    System.out.print("Enter index- (" + i + "," + j + "," + k + ") :");
+                    matrix[i][j][k] = sc.nextInt();
+                }
+            }
+        }
+        return matrix;
+    }
 }

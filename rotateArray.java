@@ -7,7 +7,7 @@ public class rotateArray {
         int d = sc.nextInt();
         sc.close();
         rotate2(array, d);
-        ArraysIO.output.print_1d(array);
+        ArraysIO.output.print(array);
     }
 
     public static void rotate(int arr[], int d) {

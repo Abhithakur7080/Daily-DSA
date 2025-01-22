@@ -2,7 +2,7 @@ public class rowSum {
 	public static void main(String[] args) {
 		int matrix[][] = ArraysIO.input.takeInput_2d();
 		int result[] = rowWiseSum(matrix);
-		ArraysIO.output.print_1d(result);
+		ArraysIO.output.print(result);
 	}
 
 	public static int[] rowWiseSum(int[][] mat) {
