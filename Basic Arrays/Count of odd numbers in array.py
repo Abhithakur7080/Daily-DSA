@@ -10,14 +10,22 @@ Explanation: The three odd elements are (1,3,5).
 
 class Solution:
     def countOdd(self, arr, n):
+        # initialize count to 0
         count = 0
+        # iterate through the array
         for i in range(n):
+            # check if the current element is odd
             if arr[i]%2 != 0:
+                # increment the count if the current element is odd
                 count += 1
+        # return the count of odd numbers
         return count
 
 if __name__ == "__main__":
+    # take the size of the array
     n = int(input().strip())
+    # take the array elements
     arr = list(map(int, input().strip().split()))
     obj = Solution()
+    # print the result
     print(obj.countOdd(arr, n))

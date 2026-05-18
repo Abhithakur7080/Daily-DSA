@@ -8,14 +8,21 @@ Output: 15
 Explanation: Sum of all the elements is 1+2+3+4+5 = 15
 """
 class Solution:
-	def sum(self,arr, n): 
+	def sum(self,arr, n):
+        # initialize sum to 0
          sum_array = 0
+         # iterate through the array
          for i in range(n):
+             # add the current element to the sum
              sum_array = sum_array + arr[i]
+         # return the sum
          return sum_array
 	
 if __name__ == "__main__":
+    # take the size of the array
     n = int(input().strip())
+    # take the array elements
     arr = list(map(int, input().strip().split()))
     obj = Solution()
+    # print the result
     print(obj.sum(arr, n))
