@@ -25,11 +25,14 @@ class Solution:
 
 if __name__ == "__main__":
     # take the size of the array
+    print("Enter the size of the array: ", end="")
     n = int(input().strip())
     # take the array elements
+    print("Enter the elements of the array: ", end="")
     arr = list(map(int, input().strip().split()))
     obj = Solution()
     # reverse the array
     obj.reverse(arr, n)
     # print the result
+    print("The reversed array is: ", end="")
     print(arr)

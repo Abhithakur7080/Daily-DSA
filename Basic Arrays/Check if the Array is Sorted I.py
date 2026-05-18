@@ -21,9 +21,12 @@ class Solution:
 
 if __name__ == "__main__":
     # take the size of the array
+    print("Enter the size of the array: ", end="")
     n = int(input().strip())
     # take the array elements
+    print("Enter the elements of the array: ", end="")
     arr = list(map(int, input().strip().split()))
     obj = Solution()
     # print the result
+    print("The array is sorted: ", end="")
     print(obj.arraySortedOrNot(arr, n))

@@ -23,9 +23,12 @@ class Solution:
 
 if __name__ == "__main__":
     # take the size of the array
+    print("Enter the size of the array: ", end="")
     n = int(input().strip())
     # take the array elements
+    print("Enter the elements of the array: ", end="")
     arr = list(map(int, input().strip().split()))
     obj = Solution()
     # print the result
+    print("The count of odd numbers in the array is: ", end="")
     print(obj.countOdd(arr, n))
