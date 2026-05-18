@@ -10,16 +10,21 @@ Output: 321
 
 class Solution:
     def reverse(self, x: int) -> int:
+        # check if the number is negative
         isNegative = x<0
         ans = 0
+        # take absolute value of the number
         x = abs(x)
+        # reverse the number
         while x !=0:
             lastDigit = x%10
+            # check if the reversed number is within the 32-bit integer range before multiplying
+            if ans > (2**31 - 1)//10:
+                return 0
             ans = ans*10 + lastDigit
             x = x//10
+        # if the number is negative, make the reversed number negative
         ans = -ans if isNegative else ans
-        if ans < -2**31 or ans > 2**31 - 1:
-            return 0
         return ans
 
 if __name__ == "__main__":
